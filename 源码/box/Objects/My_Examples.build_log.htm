@@ -1,0 +1,191 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tangyan tangyan, tangyan, LIC=YA39H-WFD7J-744S0-BWYJG-M43UT-T0S3Y
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\A_project\VSCODE\Box\My_Examples.uvprojx
+Project File Date:  09/20/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling port.c...
+compiling timers.c...
+compiling list.c...
+compiling croutine.c...
+compiling heap_4.c...
+compiling event_groups.c...
+compiling queue.c...
+compiling core_cm3.c...
+compiling stream_buffer.c...
+compiling tasks.c...
+compiling MyDelay.c...
+compiling 24cxx.c...
+compiling MyUART3.c...
+compiling SG90.c...
+compiling myiic.c...
+compiling ESP8266.c...
+compiling touch.c...
+Hardware\touch.c(348): warning:  #223-D: function "My_LCD_string" declared implicitly
+  						My_LCD_string(3,4,24,"Failed",Virtual);
+Hardware\touch.c(348): error:  #20: identifier "Virtual" is undefined
+  						My_LCD_string(3,4,24,"Failed",Virtual);
+Hardware\touch.c(369): warning:  #223-D: function "My_LCD_string" declared implicitly
+  						My_LCD_string(3,4,24,"Failed",Virtual);
+Hardware\touch.c(369): error:  #20: identifier "Virtual" is undefined
+  						My_LCD_string(3,4,24,"Failed",Virtual);
+Hardware\touch.c(392): warning:  #223-D: function "My_LCD_string" declared implicitly
+  						My_LCD_string(3,4,24,"Failed",Virtual);
+Hardware\touch.c(392): error:  #20: identifier "Virtual" is undefined
+  						My_LCD_string(3,4,24,"Failed",Virtual);
+Hardware\touch.c(406): warning:  #223-D: function "My_LCD_string" declared implicitly
+  						My_LCD_string(40,26,16,"TP Need readjust!",Fact);
+Hardware\touch.c(406): error:  #20: identifier "Fact" is undefined
+  						My_LCD_string(40,26,16,"TP Need readjust!",Fact);
+Hardware\touch.c(421): warning:  #223-D: function "My_LCD_string" declared implicitly
+  					My_LCD_string(35,110,16,"Touch Screen Adjust OK!",Fact);//校正完成
+Hardware\touch.c(421): error:  #20: identifier "Fact" is undefined
+  					My_LCD_string(35,110,16,"Touch Screen Adjust OK!",Fact);//校正完成
+Hardware\touch.c(488): warning:  #223-D: function "strlen" declared implicitly
+  	u8 show_x=(i%3)*80+(80-(strlen(show_string)*12))/2;
+Hardware\touch.c(490): warning:  #223-D: function "My_LCD_string" declared implicitly
+  	My_LCD_string(show_y,show_x,24,show_string,Fact);
+Hardware\touch.c(490): error:  #20: identifier "Fact" is undefined
+  	My_LCD_string(show_y,show_x,24,show_string,Fact);
+Hardware\touch.c(502): warning:  #223-D: function "My_LCD_CN" declared implicitly
+  	My_LCD_CN(170+3,0,"还剩",Fact,BLACK);
+Hardware\touch.c(502): error:  #20: identifier "Fact" is undefined
+  	My_LCD_CN(170+3,0,"还剩",Fact,BLACK);
+Hardware\touch.c(596): warning:  #223-D: function "My_LCD_string" declared implicitly
+  				My_LCD_string(170+3,6*24-1,24,pwsd,Fact);
+Hardware\touch.c(596): error:  #20: identifier "Fact" is undefined
+  				My_LCD_string(170+3,6*24-1,24,pwsd,Fact);
+Hardware\touch.c(600): warning:  #223-D: function "My_LCD_string" declared implicitly
+  				My_LCD_string(140+3,0,24,"NO MORE SPACE",Fact);
+Hardware\touch.c(600): error:  #20: identifier "Fact" is undefined
+  				My_LCD_string(140+3,0,24,"NO MORE SPACE",Fact);
+Hardware\touch.c(610): warning:  #223-D: function "My_LCD_string" declared implicitly
+  			My_LCD_string(170+3,6*24-1,24,"        ",Fact);
+Hardware\touch.c(610): error:  #20: identifier "Fact" is undefined
+  			My_LCD_string(170+3,6*24-1,24,"        ",Fact);
+Hardware\touch.c(615): warning:  #223-D: function "My_LCD_string" declared implicitly
+  			My_LCD_string(170+3,6*24-1,24,"        ",Fact);
+Hardware\touch.c(615): error:  #20: identifier "Fact" is undefined
+  			My_LCD_string(170+3,6*24-1,24,"        ",Fact);
+Hardware\touch.c(617): warning:  #223-D: function "strcmp" declared implicitly
+  			if (strcmp(pwsd,PWSD)==0)
+Hardware\touch.c(637): warning:  #223-D: function "My_LCD_Num" declared implicitly
+  	My_LCD_Num(170+3,48,8-n,24,1,Fact);
+Hardware\touch.c(637): error:  #20: identifier "Fact" is undefined
+  	My_LCD_Num(170+3,48,8-n,24,1,Fact);
+Hardware\touch.c(638): warning:  #1-D: last line of file ends without a newline
+  }
+Hardware\touch.c: 15 warnings, 12 errors
+compiling lcd.c...
+Hardware\LCD\lcd.c(580): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+  	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB|RCC_AHB1Periph_GPIOD|RCC_AHB1Periph_GPIOE|RCC_AHB1Periph_GPIOF|RCC_AHB1Periph_GPIOG, ENABLE);//使能PD,PE,PF,PG时钟  
+Hardware\LCD\lcd.c(580): error:  #20: identifier "RCC_AHB1Periph_GPIOB" is undefined
+  	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB|RCC_AHB1Periph_GPIOD|RCC_AHB1Periph_GPIOE|RCC_AHB1Periph_GPIOF|RCC_AHB1Periph_GPIOG, ENABLE);//使能PD,PE,PF,PG时钟  
+Hardware\LCD\lcd.c(580): error:  #20: identifier "RCC_AHB1Periph_GPIOD" is undefined
+  	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB|RCC_AHB1Periph_GPIOD|RCC_AHB1Periph_GPIOE|RCC_AHB1Periph_GPIOF|RCC_AHB1Periph_GPIOG, ENABLE);//使能PD,PE,PF,PG时钟  
+Hardware\LCD\lcd.c(580): error:  #20: identifier "RCC_AHB1Periph_GPIOE" is undefined
+  	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB|RCC_AHB1Periph_GPIOD|RCC_AHB1Periph_GPIOE|RCC_AHB1Periph_GPIOF|RCC_AHB1Periph_GPIOG, ENABLE);//使能PD,PE,PF,PG时钟  
+Hardware\LCD\lcd.c(580): error:  #20: identifier "RCC_AHB1Periph_GPIOF" is undefined
+  	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB|RCC_AHB1Periph_GPIOD|RCC_AHB1Periph_GPIOE|RCC_AHB1Periph_GPIOF|RCC_AHB1Periph_GPIOG, ENABLE);//使能PD,PE,PF,PG时钟  
+Hardware\LCD\lcd.c(580): error:  #20: identifier "RCC_AHB1Periph_GPIOG" is undefined
+  	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB|RCC_AHB1Periph_GPIOD|RCC_AHB1Periph_GPIOE|RCC_AHB1Periph_GPIOF|RCC_AHB1Periph_GPIOG, ENABLE);//使能PD,PE,PF,PG时钟  
+Hardware\LCD\lcd.c(581): warning:  #223-D: function "RCC_AHB3PeriphClockCmd" declared implicitly
+  	RCC_AHB3PeriphClockCmd(RCC_AHB3Periph_FSMC,ENABLE);//使能FSMC时钟  
+Hardware\LCD\lcd.c(581): error:  #20: identifier "RCC_AHB3Periph_FSMC" is undefined
+  	RCC_AHB3PeriphClockCmd(RCC_AHB3Periph_FSMC,ENABLE);//使能FSMC时钟  
+Hardware\LCD\lcd.c(585): error:  #20: identifier "GPIO_Mode_OUT" is undefined
+  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;//普通输出模式
+Hardware\LCD\lcd.c(586): error:  #136: struct "<unnamed>"  has no field "GPIO_OType"
+  	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;//推挽输出
+Hardware\LCD\lcd.c(586): error:  #20: identifier "GPIO_OType_PP" is undefined
+  	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;//推挽输出
+Hardware\LCD\lcd.c(588): error:  #136: struct "<unnamed>"  has no field "GPIO_PuPd"
+  	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
+Hardware\LCD\lcd.c(588): error:  #20: identifier "GPIO_PuPd_UP" is undefined
+  	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
+Hardware\LCD\lcd.c(592): error:  #20: identifier "GPIO_Mode_AF" is undefined
+  	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;//复用输出
+Hardware\LCD\lcd.c(593): error:  #136: struct "<unnamed>"  has no field "GPIO_OType"
+  	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;//推挽输出
+Hardware\LCD\lcd.c(594): error:  #20: identifier "GPIO_Speed_100MHz" is undefined
+  	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;//100MHz
+Hardware\LCD\lcd.c(595): error:  #136: struct "<unnamed>"  has no field "GPIO_PuPd"
+  	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
+Hardware\LCD\lcd.c(600): error:  #136: struct "<unnamed>"  has no field "GPIO_OType"
+  	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;//推挽输出
+Hardware\LCD\lcd.c(602): error:  #136: struct "<unnamed>"  has no field "GPIO_PuPd"
+  	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
+Hardware\LCD\lcd.c(607): error:  #136: struct "<unnamed>"  has no field "GPIO_OType"
+  	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;//推挽输出
+Hardware\LCD\lcd.c(609): error:  #136: struct "<unnamed>"  has no field "GPIO_PuPd"
+  	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
+Hardware\LCD\lcd.c(614): error:  #136: struct "<unnamed>"  has no field "GPIO_OType"
+  	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;//推挽输出
+Hardware\LCD\lcd.c(616): error:  #136: struct "<unnamed>"  has no field "GPIO_PuPd"
+  	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;//上拉
+Hardware\LCD\lcd.c(619): warning:  #223-D: function "GPIO_PinAFConfig" declared implicitly
+  	GPIO_PinAFConfig(GPIOD,GPIO_PinSource0,GPIO_AF_FSMC);//PD0,AF12
+Hardware\LCD\lcd.c(619): error:  #20: identifier "GPIO_AF_FSMC" is undefined
+  	GPIO_PinAFConfig(
+PIOD,
+PIO_PinSource0,GPIO_AF_FSMC);//PD0,AF12
+Hardware\LCD\lcd.c(2545): warning:  #223-D: function "Show_Str" declared implicitly
+  			Show_Str(x+(i%3)*80+2,y+7+30*(i/3),80,30,(u8*)kbd_tbl[i],16,0);	
+Hardware\LCD\lcd.c(2547): warning:  #223-D: function "Show_Str_Mid" declared implicitly
+  			Show_Str_Mid(x+(i%3)*80,y+7+30*(i/3),(u8*)kbd_tbl[i],16,80);
+Hardware\LCD\lcd.c(2563): warning:  #223-D: function "Show_Str_Mid" declared implicitly
+  		Show_Str_Mid(x+j*80,y+7+30*i,(u8*)kbd_tbl[keyx],16,80);	
+Hardware\LCD\lcd.c: 6 warnings, 22 errors
+compiling rc522.c...
+compiling AS608.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+User\main.c(69): warning:  #223-D: function "MY_UART1_Init" declared implicitly
+      MY_UART1_Init(115200);
+User\main.c(82): warning:  #223-D: function "USART1_WIFI_START_Trans" declared implicitly
+      USART1_WIFI_START_Trans();/*ESP寮�濮嬮�氫俊*/
+User\main.c: 2 warnings, 0 errors
+compiling system_stm32f10x.c...
+".\Objects\My_Examples.axf" - 34 Error(s), 23 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

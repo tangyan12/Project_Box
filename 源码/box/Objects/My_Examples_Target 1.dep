@@ -1,0 +1,603 @@
+Dependencies for Project 'My_Examples', Target 'Target 1': (DO NOT MODIFY !)
+F (.\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+F (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)()
+F (.\FreeRTOS\portable\MemMang\heap_4.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+F (.\FreeRTOS\croutine.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (.\FreeRTOS\include\croutine.h)(0x64020E50)
+F (.\FreeRTOS\event_groups.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (.\FreeRTOS\include\timers.h)(0x64020E50)
+I (.\FreeRTOS\include\event_groups.h)(0x64020E50)
+F (.\FreeRTOS\list.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+F (.\FreeRTOS\queue.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (.\FreeRTOS\include\queue.h)(0x64020E50)
+F (.\FreeRTOS\stream_buffer.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (.\FreeRTOS\include\stream_buffer.h)(0x64020E50)
+F (.\FreeRTOS\tasks.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (.\FreeRTOS\include\timers.h)(0x64020E50)
+I (.\FreeRTOS\include\stack_macros.h)(0x64020E50)
+F (.\FreeRTOS\timers.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (.\FreeRTOS\include\queue.h)(0x64020E50)
+I (.\FreeRTOS\include\timers.h)(0x64020E50)
+F (.\CORE\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (.\CORE\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\System\delay\MyDelay.c)(0x66ECF2D9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\mydelay.o --omf_browse .\objects\mydelay.crf --depend .\objects\mydelay.d)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (System\delay\MyDelay.h)(0x66040AA0)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+F (.\System\uart\MyUART3.c)(0x66ECF2D9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\myuart3.o --omf_browse .\objects\myuart3.crf --depend .\objects\myuart3.d)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\Hardware\24CXX\24cxx.c)(0x66ED24DA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\24cxx.o --omf_browse .\objects\24cxx.crf --depend .\objects\24cxx.d)
+I (Hardware\24CXX\24cxx.h)(0x503A1B31)
+I (.\Hardware\IIC\myiic.h)(0x55028152)
+I (.\System\sys.h)(0x66ED227F)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (.\System\delay\MyDelay.h)(0x66040AA0)
+F (.\Hardware\AS608\AS608.c)(0x66ECF2D9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\as608.o --omf_browse .\objects\as608.crf --depend .\objects\as608.d)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\System\uart\MyUART3.h)(0x66039DBF)
+F (.\Hardware\ESP8266\ESP8266.c)(0x66ED22B0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\System\delay\MyDelay.h)(0x66040AA0)
+F (.\Hardware\IIC\myiic.c)(0x66ED24DA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\myiic.o --omf_browse .\objects\myiic.crf --depend .\objects\myiic.d)
+I (Hardware\IIC\myiic.h)(0x55028152)
+I (.\System\sys.h)(0x66ED227F)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (.\System\delay\MyDelay.h)(0x66040AA0)
+F (.\Hardware\LCD\lcd.c)(0x66ED24FB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (Hardware\LCD\lcd.h)(0x62A4940B)
+I (.\System\sys.h)(0x66ED227F)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (Hardware\LCD\font.h)(0x62A49AC9)
+I (.\System\delay\MyDelay.h)(0x66040AA0)
+I (.\Hardware\touch.h)(0x6618F9FB)
+F (.\Hardware\RC522\rc522.c)(0x6603E8C8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\rc522.o --omf_browse .\objects\rc522.crf --depend .\objects\rc522.d)
+I (Hardware\RC522\rc522.h)(0x6603D7DB)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\System\delay\MyDelay.h)(0x66040AA0)
+I (.\System\uart\MyUART3.h)(0x66039DBF)
+F (.\Hardware\SG90\SG90.c)(0x6603D9A8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\sg90.o --omf_browse .\objects\sg90.crf --depend .\objects\sg90.d)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+F (.\Hardware\touch.c)(0x66ED24DA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\touch.o --omf_browse .\objects\touch.crf --depend .\objects\touch.d)
+I (Hardware\touch.h)(0x6618F9FB)
+I (.\System\sys.h)(0x66ED227F)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (.\Hardware\LCD\lcd.h)(0x62A4940B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\System\delay\MyDelay.h)(0x66040AA0)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\Hardware\24CXX\24cxx.h)(0x503A1B31)
+I (.\Hardware\IIC\myiic.h)(0x55028152)
+F (.\Config\FreeRTOSConfig.h)(0x66ECF515)()
+F (.\Config\stm32f10x_conf.h)(0x4D99A422)()
+F (.\User\main.c)(0x66ED2253)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+I (.\FreeRTOS\include\event_groups.h)(0x64020E50)
+I (.\FreeRTOS\include\timers.h)(0x64020E50)
+I (.\System\sys.h)(0x66ED227F)
+I (.\System\delay\MyDelay.h)(0x66040AA0)
+I (.\System\uart\MyUART3.h)(0x66039DBF)
+I (.\Hardware\AS608\AS608.h)(0x6603C131)
+I (.\Hardware\SG90\SG90.h)(0x65FD0C44)
+I (.\Hardware\RC522\rc522.h)(0x6603D7DB)
+I (.\Hardware\LCD\lcd.h)(0x62A4940B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\User\stm32f10x_it.c)(0x66ECF103)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (User\stm32f10x_it.h)(0x66ECF103)
+I (User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x64020E50)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\Config\FreeRTOSConfig.h)(0x66ECF515)
+I (.\FreeRTOS\include\projdefs.h)(0x64020E50)
+I (.\FreeRTOS\include\portable.h)(0x64020E50)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x64020E50)
+I (.\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x64020E50)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x64020E50)
+I (.\FreeRTOS\include\task.h)(0x64020E50)
+I (.\FreeRTOS\include\list.h)(0x64020E50)
+F (.\User\system_stm32f10x.c)(0x4D783CB0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Hardware -I .\System -I .\User -I .\Config -I .\CORE -I .\Library\inc -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM3 -I .\Hardware\24CXX -I .\Hardware\AS608 -I .\Hardware\ESP8266 -I .\Hardware\IIC -I .\Hardware\LCD -I .\Hardware\RC522 -I .\Hardware\SG90 -I .\System\delay -I .\System\uart --no-multibyte-chars --diag_suppress=167,513-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (User\stm32f10x.h)(0x4D783CB4)
+I (.\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (User\system_stm32f10x.h)(0x4D783CAA)
+I (.\Config\stm32f10x_conf.h)(0x4D99A422)
+I (.\Library\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (.\User\stm32f10x.h)(0x4D783CB4)
+I (.\Library\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_can.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (.\Library\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (.\Library\inc\misc.h)(0x4D783BB4)
